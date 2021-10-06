@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Blog Post</title>
+</head>
+<body>
+    <h1>How To Blog Post - Evan Callaghan</h1>
+
+    <h2>Linking a custom domain name to GitHub pages website</h2>
+
+    <h2>Date Submitted: 2021-09-10</h2>
+
+    <p>GitHub allows us to upload html code to a repository and then acts as the host for a website using that code. User and organization websites are automatically provided with a URL of the following format: “http://username.github.io.” With that being said, we want to be able to link a custom domain name to the new class website. In our case, we want to link our custom domain name, “gvsoftwaredev2021.com,” to the GitHub pages website for our class project. Below, we provide the appropriate steps for configuring a custom domain name: </p>
+
+    <ul>
+
+        <li>    First, we need to acquire a domain name. The domain name should be purchased from a reliable domain registrar. Some examples of reliable sources include GoDaddy, Google Domains, Domain.com, and freenom. </li>
+
+        <img src = "https://mma.prnewswire.com/media/819539/GoDaddy_Logo.jpg?p=publish" alt = "GoDaddy Icon" style="width:500px;height:200px;"><img src="https://blog.webjeda.com/assets/thumbs/google-domains-vs-godaddy-namescheap.png" alt ="Google Domains Icon" style="width:300px;height:175px;"><br>
+
+        <li>    Next, we need to add the purchased domain name into the GitHub repository pages settings. In the repository settings, select the “Pages” tab, add the purchased domain name to the box labeled “Custom domain” and then save the current settings. This will automatically create a commit to add a “CNAME” file in the site’s repository. This will be important in later steps. </li>
+
+        <li>    Then, we need to access the DNS management console of the domain provider. There are five records that need to be added into the console: </li>
+
+        <ul>
+            
+            <li>A “CNAME” record with the following characteristics: the type of record is “CNAME,” the name is “www,” and the value is the original GitHub link structured as username.github.io.</li>
+
+            <li>Four different “A” records with the following characteristics: the type of record is “A,” the name is “@,” and the value is the designated IP address. Below are the designated IP addresses from GitHub documentation:</li>
+
+            <ul>
+
+                <li>185.199.108.153</li>
+                <li>185.199.109.153</li>
+                <li>185.199.110.153</li>
+                <li>185.199.111.153</li>
+
+            </ul>
+        </ul>
+
+        <li>Finally, after accounting for the lag in the domain name provider’s DNS management process, we can access the GitHub website with the new, custom domain name. Searching for the purchased domain name will then redirect all traffic to the GitHub pages site.</li>
+
+    </ul>
+
+    <h4>Time Log - Evan</h4>
+
+    <ul>
+        <li>2021-Sept-5: 2 hours: Reading articles and watching tutorials for how to link a domain name to a Github pages</li>
+        <li>2021-Sept-6: 1.5 hours: Configuring and writing my essay to be displayed in the site</li>
+        <li>2021-Sept-6: 15 minutes: Preparing and sending class status report email</li>
+        <li>2021-Sept-7: 1 hour: Re-watching relevant tutorials to confirm linking process (slight differences between Mac and Windows)</li>
+        <li>2021-Sept-7: 30 minutes: Proof-reading and editing assignment document </li>
+        <li>2021-Sept-8: 2 hours: Downloading sublime for text editing and utilizing my classmates' blog documents to format our blog post about linking a custom domain name</li>
+        <li>2021-Sept-8: 15 minutes: Adding all html code to GitHub and creating Pull Request</li>
+        <li>2021-Sept-12: 30 minutes: Making all necessary updates to html code</li>
+        <li>2021-Sept-12: 30 minutes: Reviewing Beehler and Gant pull request code</li>
+    </ul>
+
+    <h4>Time Log - Jacob</h4>
+    <ul>
+        <li>2021-Sept-7: 1 hour: watching tutorials/reading material about linking domain name to Github</li>
+        <li>2021-Sept-8: 30 minutes: Setting up Zelle (Ran into problems with my bank. Should have been faster)</li>
+        <li>2021-Sept-8: 15 minutes: Looking over pull request made by Evan and adding comments</li>
+        <li>2021-Sept-8: 15 minutes: Misc communications</li>
+        <li>2021-Sept-9: 10 minutes: Buying domain name gvsoftwaredev2021.com</li>
+        <li>2021-Sept-9: 1.25 hours: Reviewing Beehler and Gant pull request and leaving comments</li>
+    </ul>
+
+
+
+</body>
