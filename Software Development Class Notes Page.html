@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang=en>
+<title>Software Development Class Notes</title>
+</head>
+<body>
+<h1> Software Development Class Notes</h1>
+	<h2>Date: 2021-08-25</h2>
+   <h4>Agenda</h4>
+   <ol>
+       <li>Things To Do:</li>
+       <ul>
+           <li>Review Previous Class</li>
+           <li>Calibration Exercise</li>
+       </ul>
+   </ol>
+
+   <h4>Goal of the Course</h4>
+   <ol>
+       <li>Build site for learning Software Development</li>
+       <ul>
+           <li>Use Free/Libre and Open-Source(FLOSS) Software</li>
+           <li>Get it hosted on the Internet</li>
+       </ul>
+       <li>15 weeks to build something together this semester</li>
+       <ul>
+           <li>3 hours of class time per week</li>
+           <li>6 hours of extra work outside of class per week</li>
+       </ul>
+       <li>Email estimates of what tool you can build in 6 hours(1 week of study) to help teach software Development</li>
+   </ol>
+
+   <h4>Calibration</h4>
+   <ol>
+       <li>In your favorite programming language, create a program that:</li>
+       <ul>
+           <li>Takes name, outputs goals for the class</li>
+           <li>(Optional) Takes week number, outputs the date of the monday of that week</li>
+       </ul>
+       <li>Things to submit</li>
+       <ul>
+           <li>Link to the source code</li>
+           <li>README explaining how to run the code</li>
+           <li>Record of time spent for the entire 6 hours</li>
+       </ul>
+   </ol>
+
+
+   <h2>Date: 2021-08-30</h2>
+		<h4>Anouncements</h4>
+		
+		<ol> 
+			<li>Instructor will answer to Oge or Nnadi</li>
+			<li>Email instructor for clarification on assignments</li>
+			<li>Refining the final student list with emails</li>
+			<li>Bring computer to class on Wednesday to troubleshoot problems with Git/Github in class</li>
+		</ol>
+		
+		<h4>Assignments</h4>
+		<ol> 
+			<li>Calibration Exercise Testing:
+				<ul>
+					<li>Before Wednesday, please upload your Calibration Exercise code to a repository on Github
+						<ol>
+							<li>The repo must have a README describing how to install the software</li>
+							<li>The README must describe how to run the software</li>
+							<li>The README must include a link to a 5-minute (or shorter) video showing your screen as YOU follow YOUR instructions to installthe software.
+								<ul>
+									<li>If you want to do a good job, try installing the software on a computer that does not belong to you.</li>
+								</ul>
+							</li>
+							<li>The repository must contain your time log named, LOG.txt. It should contain entries separated by blank lines with this format:
+								<ul>
+									<li>[Date and Time]: [Duration in minutes]: [Description of work done in that duration]</li>
+								</ul>
+							For instance, my log file might look like this:
+								<ul>
+									<li>2021-Aug-30: 35m: Answering Grandview email</li>
+									<li>2021-Aug-30: 15m: Interview with a student</li>
+								</ul>
+								<ul>
+									
+								</ul>
+							</li>
+						</ol>
+					</li>
+
+					<li>On Wednesday, I'll ask your classmates to test your software based on the video on instructions you've given.
+						<ul>
+							<li>Please anticipate what will give them difficulty in that task.</li>
+						</ul>
+					</li>
+				</ul>    
+			</li>
+			<li>Goal Statement Redux
+				<ul>
+					<li>Please send out your *original* goal statement files to all your classmates so they can integrate it into their programs before Wednesday.
+						<ul>
+
+							<li>Hillaker has made some fixes</li>
+
+							<li>Perhaps Madeline/Danh can make further fixes?</li>
+
+							<li>Perhaps write assignment's index entry before soliciting further PRs</li>
+						</ul>
+					</li>
+
+					<li>I noticed that many of you wrote insightful goal statements and sent them to me, but then sent vague and short statements to the class.
+						<ul>
+							<li>I think you should send out the more detailed statements to the class so your classmates can help you achieve those goals better.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+	<h2>Date: 2021-09-01</h2>
+	<h4> Agenda: </h4>
+		<ol>
+			<li> Status Check </li>
+			<li> Git </li>
+			<li> 3 Assignments for Friday </li>
+		</ol>
+	<h4> Assignments: </h4>
+		<ol>
+			<li> TESTING OTHERS CODE </li>
+				<ul>
+					<li> 1. Record a ~15 min. video of following your partner's README to </li>
+						<ul>
+							<li> a. Install the code </li>
+							<li> b. Run the code </li>
+							<li> c. Make the program behave weirdly </li>
+						</ul>
+					<li> 2. Send video to the class </li>
+						<ul>
+							<li> a. Subject: TESTING OTHERS CODE: [Name of partner, Your name] e.g. TESTING OTHERS CODE: Callaghan, Shaffer </li>
+						</ul>
+				</ul>		
+			<li> REFLECTIONS ON CALIBRATION EXERCISE </li>
+				<ul>
+					<li> What went well </li>
+					<li> What didn't go so well </li>
+					<li> What can be improved </li>
+				</ul>
+			<li> WHAT TO ACCOMPLISH BY SEPT 17 </li>
+				<ul>
+					<li> Reflect on, and prepare to discuss, what features you want to see in the class site by Sept 17th </li>
+				</ul>
+		</ol>
+
+
+	<h2> Date: 2021-09-03 </h2>                    
+            <h4> Recap</h4>
+                <ol> 
+                    <li> Kudos:
+                        <ul>
+                            <li> Evan, Thomas, Hillaker for sending in code quickly</li>
+                            <li> Jackson, Craig for error handling</li>
+                            <li> Danh for help with recording</li>
+                            <li> Kime for nice UI</li>
+                            <li> Morgan for responsiveness with bugs</li>
+                        </ul>
+                    </li>
+                    <li> What went well:
+                        <ul>
+                            <li> Requirements well-defined</li>
+                            <li> Freedom to pick implementation details</li>
+                        </ul>
+                    </li>
+                    <li> What did not go well:
+                        <ul>
+                            <li> Procrastinated x3</li>
+                            <li>Program output was not well-readable x2</li>
+                            <li>Finding right tech to make recording x2</li>
+                            <li>Took too much time deciding how to implementation x2</li>
+                            <li>Invalid input handling</li>
+                            <li>Assignment took longer than estimated</li>
+                            <li>Ambiguous exit of program</li>
+                            <li>Difficult to watch videos taht reqiured login</li>
+                            <li>Losing data on crashed laptop</li>
+                            <li>Didn't have time to do assignment</li>
+                        </ul>
+                    </li>
+                    <li> How to improve:
+                        <ul>
+                            <li> Start projects sooner (easier said than done)</li>
+                            <li> Break up the project into smaller pieces</li>
+                            <li> Check in on progress at each class</li>
+                            <li> Practice</li>
+                            <li> Standard format for data</li>
+                            <li> Allocate time for early testing/debugging and for coding</li>
+                            <li> Pick a standard recording tool</li>
+                            <li> Bandycam (no login, easy to use, uploads to Onedrive or local)</li>
+                            <li> Pick a standard implementation tool</li>
+                            <li> Early checkin to timebox tool research</li>
+                            <li> Deliver MVP in timebox</li>
+                            <li> Publish code to github regularly</li>
+                            <li> Early checkins to prevent getting stuck</li>
+                            <li> Teamwork (asking for help when stuck)</li>
+                            <li> The spec in a single space</li> 
+                        </ul>
+                    </li>
+                    <li> New upcoming assignments:
+                        <ul>
+                            <li> Write a blog post in HTML (Morgan, David)</li>
+                            <li> How to make a blog post pretty (Danh, Kime)</li>
+                            <li> Insert code snippets, and format them (Madeline, Schaffer)</li>
+                            <li> Link a domain name to our website (Jacob, Evan)</li>
+                            <li> How to create (github:) Pull Request (git:) branches (Nick, Thomas)</li>
+                        </ul>
+                    </li>
+                </ol>    
+            <h2> Date: 2021-09-08 </h2>    
+                <ol> 
+                    <li> Summary:
+                        <ul>
+                            <li> Check-ins with how the essay over everyones topic is going</li>
+                            <li> Class repository created on github</li>
+                            <li> Create a pull request with your essay and include your logs</li>
+                            <li> Review classmates pull requests and leave feedback</li>
+                            <li> Update your pull request based on the feedback</li>
+                        </ul>
+                    </li>
+                </ol>
+
+
+	
+
+	<h2>Date: 2021-09-10</h2>
+             <h4> Agenda: </h4>
+                <ol>
+                     <li> Retro on the last month</li>
+                </ol>
+             <h4> Retro on the last month: </h4>
+                <ol>
+                    <li>  Evan:
+                        <ul>
+                            <li>(having trouble with wifi)</li>
+
+                        </ul>
+                    </li>
+                    <li>  Jacob & Nick:
+                        <ul>
+                            <li>2021-9-10-pull-and-branch.html</li>
+                            <li>Start time - Duration: Description</li>
+                        </ul>
+                    </li>
+                    <li>  Dahn & Gideon:
+                        <ul>
+                            <li>Remove docx file</li>
+
+                        </ul>
+                    </li>
+
+                    <li>  Gant & David:
+                        <ul>
+                            <li> Please indent the code within the "<'code'>" tags for readability</li>
+
+                        </ul>
+                    </li>
+
+                    <li>  Jackson:
+                        <ul>
+                            <li> Let's chat after class about PR</li>
+                            <li> rename JacksonNguyenGV to 2021-09-10-blah.html</li>
+                            <li>  Put the explanation of HTML from the docx file into the html file</li>
+                            <li> Add logs to the end of the html file</li>
+                        </ul>
+                    </li>
+
+                    <li>  Craig & Madeline:
+                        <ul>
+                            <li> Please change the name to `2021-09-10-code-snippets.html`</li>
+                            <li> Get rid of change in the README</li>
+                        </ul>
+                    </li>
+                    <li>  Evan & Hillaker:
+                        <ul>
+                            <li> Add Jacob's logs</li>
+                        </ul>
+                    </li>
+
+                    <li> Josue:
+                        <ul>
+                            <li> Since you don't have a team, please review ALL the PRs.
+                                <ul>
+
+                                    <li>Check out the code</li>
+
+                                    <li>Test it in your browser</li>
+
+                                    <li>Make comments on their PR</li>
+                                </ul>
+                            </li>
+
+                            <li> Enjoy your weekend!
+                </ol>	
+
+    <h2>Date: 2021-09-13</h2>
+             <h4> Agenda: </h4>
+                <ol>
+                     <li> Check-ins/Merging code</li>
+                     <li> Prompt for retro</li>
+                     <li> Class Announcements</li>
+                </ol>
+             <h4> Check-ins/Merging code: </h4>
+                <ol>
+                    <li>  Evan & Hillaker:
+                        <ul>
+                            <li>2021-09-10-linking-custom-domain.html</li>
+
+                        </ul>
+                    </li>
+                    <li>  Morgan & David:
+                        <ul>
+                            <li>2021-09-10-blogging-in-html.html</li>
+
+                        </ul>
+                    </li>
+
+                    <li> Assignment: RETRO ON 2021-09-15:
+                        <ul>
+                            <li> Takes < 1hr.</li>
+                                <ul>
+
+                                    <li>Imagine repeating the past month of software development for 8hrs/day <br>and 5days/wk and 50 weeks/year for the next year.</li>
+
+                                    <li>Wait 30 seconds on the clock</li>
+
+                                    <li>Write out what feelings come up. Write as much as you want.</li>
+                                    <li>Create a pull request with a file</li>
+                                        <ul><li>2021-09-15-retro-[ name or alias in lowercase ].html</li></ul>
+                                </ul>
+                            </li>
+                  <li> Class Announcements:
+                        <ul>
+                           <li> No class on Friday (I'm out of town).</li>
+
+                        </ul>
+                    </li>
+                </ol>            
+
+    <h2>Date: 09/15/2021</h2>
+    <h4>Agenda</h4>
+    <ol>
+        <li>Retro</li>
+        
+        <li>Readings for Hack/Reflection week</li>
+        
+        <li>Scheduling one-on-ones(offline)</li>
+    </ol>
+    <h4>Retro: Look over logs; look over assignments; others' assignments</h4>
+    <ol>
+       <li>What went well</li>
+           <ul>
+               <li>Getting assignements done</li>
+               <li>Teamn work (+3)
+               <br> = (kudos to Danh for knowledge;
+               <br> kudos to Evan being on top)</li> 
+               <li>Learned about new technologies(HTML, CSS, JS)(+2)</li>
+               <li>Finishing assignements early/time management (+2)
+               <br> = (kudos to craig for communicating how to PRs)</li>
+               <li>Had feedback to give classmates</li>
+               <li>Folks understand Github better(+3)</li>
+               <li>Understanding what is required better (+1)</li>
+               <li>Seeing what we were building coming together</li>
+               <li>individual PR feedback</li>
+            </ul>
+        <li>What didn't go so well</li>
+            <ul>
+                <li>Zoom-for-assignment instructions didn't work</li>
+                <li>Need more time to test others' assignment</li>
+            </ul>
+        <li>What can we improve</li>
+            <ul>
+                <li>More explanations of what is required in assignments(+3)
+                <br>= spend more time on the requirements
+                <br>= First rewrite the requirement in your on words before working</li>
+                <li>Time management e.g. having time to do the work (+4)</li>
+                <li>Make HTML pages look nicer(+5)</li>
+                <li>Make sure assignments are done before class so folks can get feedback</li>
+                <li>Learn Github</li>
+                <li>Didn't test classmates PR with enough time for them to incorporate</li>
+                <li>Want to learn more HTML, CSS, JS</li>
+            </ul>
+    </ol>
+    <h4>Readings for Hack/Reflection week:</h4>  
+    <ol>
+    <li>Presenting to excutives</li>
+        <a href="https://staffeng.com/guides/present-to-executives" target="_blank">https://staffeng.com/guides/present-to-executives </a>
+    <li>UML Class diagram:</li>
+        <a href="https://en.wikipedia.org/wiki/Class_diagram" target="_blank">https://en.wikipedia.org/wiki/Class_diagram </a>
+    <li>UML sequence diagram:</li>
+        <a href="https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm" target="_blank">https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm </a>
+    <li>Scrum process:</li>
+        <a href="https://scrumguides.org/scrum-guide.html" target="_blank">https://scrumguides.org/scrum-guide.html </a>
+    <li>The spolsky test of software teams:</li>
+        <a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/" target="_blank">https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/ </a>
+    <li>HTML Cheat Sheet:</li>
+        <a href="https://htmlcheatsheet.com/" target="_blank">https://htmlcheatsheet.com/ </a>
+    <li>CSS Cheat Sheet:</li>
+        <a href="https://htmlcheatsheet.com/css/" target="_blank">https://htmlcheatsheet.com/css/ </a>
+    <li>Javascript tutorial:</li>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash" target="_blank">https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash </a>
+    <li>Laziness does not exist:</li>
+        <a href="https://humanparts.medium.com/laziness-does-not-exist-3af27e312d01" target="_blank">https://humanparts.medium.com/laziness-does-not-exist-3af27e312d01 </a>
+        
+    </ol>    
+    <h4>Assignment: LOGS FOR REFLECTION WEEK</h4>
+    <ol>
+    <li>call 15 minutes an hour. Spend 4 hours (class time) reading articles.</li>
+    <li>Submit logs in PR in this format before class on 27th.</li>
+    <li>2021-09-27-reflection-logs-[name or alias].html</li>
+</ol>
+    
+
+    <h2> Date: 2021-09-27 </h2>
+<section>
+<h4> Agenda: </h4>
+  <ol> 
+    <li> Welcome back from reflection week</li>
+    <li> Plan for the 2nd half of semester</li>
+  </ol>
+</section>
+<section>
+<h4> Tentative Semester Agenda: </h4>
+  <ol> 
+    <li> This Week: 
+      <ul>
+        <li> Make website presentable
+          <ul> 
+            <li> What we did </li>
+            <li> Our advice to students </li>
+          </ul>                  
+        </li>
+      </ul>   
+    </li>
+    <li> Weeks After:
+      <ul>
+        <li> In pairs, take turns leading the project</li>
+        <li> Brainstorm what to work on in each week</li>
+    </li>
+  </ol>
+</section>
+<section>
+<h4> Outstanding Tasks: </h4>
+  <ol> 
+    <li> Style home page</li>
+    <li> Pick a uniform style for each blog post/article</li>
+    <li> Fix broken page</li>
+    <li> Include class notes for each lesson</li>
+    <li> Include a blurb describing each assignment</li>
+    <li> Post syllabus or list software dev topics from it</li>
+    <li> Post all the assignment submissions (including reflection logs) </li>
+    <li> Connect the domain name to Github</li>
+    <li> Merge all outstanding pull requests</li>
+  </ol>
+</section>
+<section>
+<h4> Leadership Pairings: </h4>
+  <ol> 
+    <li> Edmonds, Tran </li>
+    <li> Gant, Jones </li>
+    <li> Beehler, Thomas </li>
+    <li> Kime </li>
+    <li> Shaffer, Chigwira </li>
+    <li> Gonnerman, Hillaker </li>
+    <li> Callaghan, Nguyen </li>
+  </ol>
+</section>
+<section>
+<h4> Assignment: </h4>
+  <ol> 
+    <li> Write up your assignment plan for the week
+      <ul> 
+        <li> Blurb for assignment to give to class </li>
+        <li> Potential distribution of work </li>
+      </ul> 
+    </li>
+    <li> Create a PR with 2 changed files
+      <ul> 
+        <li> 2021-[month]-[day]-week-plan-[partner1's last name]-[partner2's last name].html </li>
+        <li> index.html with a link to your week's plan </li>
+      </ul> 
+    </li>
+  </ol>
+</section>
+
+
+<h2> Date: 2021-09-29 </h2>
+<section>
+<h4> Agenda: </h4>
+  <ol> 
+    <li> Check-in/Topics</li>
+    <li> Running a class session</li>
+    <li> Making more than one PR</li>
+  </ol>
+</section>
+<section>
+<h4> Check-in/Topics: </h4>
+  <ol> 
+    <li> Edmonds, Tran - Fixing broken pages, Consistent HTML structure </li> 
+    <li> Gant, Jones - Class notes in consistent format </li> 
+    <li> Beehler, Thomas - [nothing picked yet] </li> 
+    <li> Kime - Typo/styling hunt </li> 
+    <li> Shaffer, Chigwira - CSS for home page AND individual blog pages </li> 
+    <li> Gonnerman, Hillaker - [nothing picked yet] </li> 
+    <li> Callaghan, Nguyen  - Include a blurb description for each assignment </li> 
+</section>
+<section>
+<h4> General Notes for Assignment: </h4>
+  <ol> 
+    <li> Create PR naming template </li>
+    <li> Create file naming template (including number of files expected) </li>
+    <li> Create Monday/Wednesday/Friday notes </li>
+    <li> Plan to join Zoom call 15 minutes before class on the days you're leading to fix any audio issues</li>
+  </ol>
+</section>
+<section>
+<h4> Making more than one PR: </h4>
+  <ol> 
+    <li> Create a new branch for each PR you want to create </li>
+    <li> Github Desktop makes it easy to create branches </li>
+  </ol>
+</section>
+
+
+<h2>Date: 2021-10-01</h2>
+  
+  <h4> Topic: Agenda</h4>
+       <ol> 
+           <li> Merge Pull Requests</li>
+		   <li> Schedule Feedback Sessions</li>
+      </ol>
+<h4> Topic: Merging pull requests and discussing which topics to lead</h4>
+       <ol> 
+           	<li> Edmonds, Tran</li>
+				<ul> 
+					<li>Push PR</li>
+				</ul>
+		   <li> Gant, Jones</li>
+				<ul> 
+					<li>Ensure your PR includes a link in index.html</li>
+					<li>Make filename all lowercase</li>
+					<li>Please include your time logs in your submission</li>
+				</ul>
+		   <li> Beehler, Thomas</li>
+				<ul> 
+					<li>Meet, decide topic (possibly 6. Post syllabus or list software dev topics from it)</li>
+					<li>Push PR</li>
+				</ul>
+		   <li> Kime</li>
+				<ul> 
+					<li>Decide how to break up work</li>
+					<li>Push PR</li>
+				</ul>
+		   <li> Shaffer, Chigwira(absent)</li>
+				<ul> 
+					<li>Please include your time logs in your submission</li>
+				</ul>
+		   <li> Gonnerman, Hillaker</li>
+				<ul> 
+					<li>Decide topic (possibly 8. Connect the domain name to Github AND sthg else)</li>
+					<li>Topic idea: summary stats on time logs, some kind of summary of class notebooks?</li>
+					<li>Push PR</li>
+				</ul>
+		   <li> Callaghan, Nguyen</li>
+				<ul> 
+					<li>Ensure your PR includes a link in index.html</li>
+					<li>Please include your time logs in your submission</li>
+				</ul>
+	  </ol>
+
+	<h2>Date: 2021-10-04</h2>
+    <h4>Agenda:</h4>
+    <ol>
+      <li>
+        Create a consistent HTML format for the class so that when CSS is
+        implemented there isn't a lot of confusion for what needs to be styled.
+      </li>
+      <li>
+        Everyone is responsible for their own files that they created over the
+        semester.
+      </li>
+      <li>Fix broken pages so they can be merged into the main website.</li>
+    </ol>
+    <h4>File Naming Template:</h4>
+    <ol>
+    <li>
+      For our defining success blog post:
+      2021-08-31-defining-success-[username/actual name].html
+    </li>
+    <li>
+      For our How To blog post: 2021-09-10-how-to-[blog post
+      name]-[username/actual name].html
+    </li>
+    <li>
+      For our Retro1 blog post: 2021-09-10-retro1-[username/actual name].html
+    </li>
+    <li>
+      For our Retro2 blog post: 2021-09-10-retro2-[username/actual name].html
+    </li>
+  </ol>
+    <h4>Week Schedule</h4>
+    <ol>
+    <li>Monday</li>
+    <ul>
+      <li>Go Over Assignment and Pull Requests</li>
+      <li>Assignment Details</li>
+      <ul>
+        <li>Four Files: Success Blog post, Blog Posts, Retro1, Retro2</li>
+        <li>
+          Everyone is responsible to take their files and format them to the
+          requirements of the html formatting documentation
+        </li>
+        <li>Assignment is due: Oct 8, 2021</li>
+        <li>PR Name: HTML Fomatting [name/username]</li>
+      </ul>
+    </ul>
+
+    <li>Wednesday</li>
+    <ul>
+      <li>Check-in</li>
+      <li>Questions</li>
+      <li>Feedback</li>
+    </ul>
+
+    <li>Friday</li>
+    <ul>
+      <li>Assignment will be due Oct 8, 2021 at 11:59pm</li>
+    </ul>
+  </ol>
+
+	<h2>Date: 2021-10-06</h2>
+             <h4> Check-Ins:</h4>
+                <ol> 
+                    <li> There were some modifications to the files sent on Monday (outlining the weekly plan)</li>
+                    <li> There is an HTML scaffold included in the "Week Plan" file as a template for new HTML file creation</li>
+                </ol>
+            <h4> Questions clarified with Dahn and Madeline: </h4>
+                <ol> 
+                    <li> h1 tags will include assigment name and student's name</li>
+                    <li> Add log section at the very bottom of the scaffold file</li>
+                    <li> For How To blog post (pull request):</li>
+                    <ul>
+                        <li> 1 submisson per group</li>
+                        <li> 1 student makes the pull request with the submission</li>
+                        <li> The other student makes the pull request without the submission and puts a note in the description to explain</li>
+                    </ul>
+                </ol>
+            <h4> Feedback for students: </h4>
+                 <ol> 
+                     <li> If a file name is changed, the pull request will show a deleted file and a new file with the new name</li>
+                     <li> Enclose sections with section tags (will be shown in scaffold)</li>
+                     <li> Log section is required for every assignment (added in scaffold)</li>
+                     <li> Include links to all html files in index.html</li>
+                     <li> index.html will be included in pull request - this is a change from the number of files included as discussed on Monday</li>
+                     <li> Make pull requests before due date (Fri. Oct. 8 at 11:59 PM)</li>
+                 </ol>
+            <h4> Notes for remainder of the week:</h4>
+                <ol> 
+                    <li> No class on Fri. Oct. 8 (Fall Break)</li>
+                    <li> Assignment will be due Oct 8, 2021 at 11:59 PM</li>
+                </ol>
+                
+
+
+    <h2>Date: 2021-10-11</h2>
+             <h4> Agenda: </h4>
+                <ol> 
+                    <li> Finishing off HTML formatting</li>
+                    <li> Retro on the last month</li>
+                </ol>
+             <h4> Retro on last month: </h4>
+                <ol> 
+                    <li> Kudos: 
+                        <ul>
+                            <li>To class for progress in creating commits and PRs x3</li>
+
+                            <li> To Madeline & Danh for being responsive during the last week x6</li>
+
+                            <li> To Madeline & Danh for making clear what is required for assgnment x3</li>
+
+                            <li> To Class in making clear what is required for assignments x2</li>
+
+                            <li> To Evan for help in Github</li>
+
+                            <li> To Nick for prepping for next week ahead of time</li>
+
+                            <li> To Jackson for being available for prepping for leadership week</li>
+
+                            <li> To class for patience and for asking lots of questions</li>
+
+                            <li> To Thomas and Gant for suggesting we NOT use git in order to speed up development</li>
+
+                            <li> To the person who recommended a gun range in Johnston (it was lots of fun)</li>
+
+                            <li> To everyone for giving candid feedback to the instructor during 1-on-1s</li>
+
+                            <li> To Danh for suggesting we have learning objectives for each assignment</li>
+                        </ul>    
+                    </li>
+                    <li> Things to Improve
+                        <ul>
+                            <li> Index file is disorganized; the sections should have their prompt above them x4
+                                <ul>
+
+                                    <li>Hillaker has made some fixes</li>
+
+                                    <li>Perhaps Madeline/Danh can make further fixes?</li>
+
+                                    <li>Perhaps write assignment's index entry before soliciting further PRs</li>
+                                </ul>
+                            </li>
+ 
+
+                            <li>Its not clear how to keep personal forks synced with the class repo x4
+                                <ul>
+                                
+                                    <li>Idea: Give tutorial on Git/Github</li>
+
+                                    <li>Clean up the repo after the tutorial</li>
+                                </ul>
+                            </li>
+               
+
+                            <li> Need to check class email consistently x2
+                                <ul>
+
+                                    <li> Outlook app on your phone</li>
+
+                                    <li> Senders can flag group emails as important</li>
+
+                                    <li> Add [csc363] to the subject line of all class emails to ease filtering</li>
+                                </ul>
+                            </li>
+               
+
+                             <li>Time management i.e. doing assignments when they're expected to be done; scheduling time for classwork
+                                <ul>
+
+                                    <li>idea: inverted classroom i.e. assignments are reading/youtube</li>
+
+                                    <li>Instructor can go over examples of doing assignments</li>
+                                </ul>
+                            </li>
+
+                            <li> Consider NOT using git in order to speed up development
+                                <ul>
+
+                                    <li> Will revisit this after Gant and Jones' week</li>
+                                </ul>
+                            </li>
+                    </li>
+                </ol>               
