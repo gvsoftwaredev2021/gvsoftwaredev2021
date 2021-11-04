@@ -8,14 +8,67 @@
   .changeColor{
     color: red;
   }
+
+  body {
+      background-color: #800000;
+    }   
+    header{
+      background-color: #530909;
+      padding: 25px;
+      color: white;
+      font-family: "Book Antiqua";
+      display: flex;
+    }   
+    h1 {
+      font-size: 55px;     
+    }
+    h2{
+      font-size: 25px;
+    }   
+    footer{
+      background-color: #530909;
+      padding: 15px;
+      color: white;
+      font-family: "Book Antiqua";
+      text-align: center;
+    }  
+    #container {
+      width: 960px;
+      margin: auto auto;
+      background-color: white;
+      padding: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    } 
+    h4 {
+      font-size: 20px;
+    } 
+    p, li {
+      font-size: 17px;
+    }
+    .list1 {
+      list-style-type: upper-roman;
+    }
+    
+    .list2 {
+      list-style-type: lower-roman;
+    }
 </style>
 </head>
 <body>
-	<h1>Software Development: Site Content Assignment - Craig Shaffer and Madeline Edmonds<h1>
+  
+  <header>
+      <div class="alignsouth">
+        <img src="GV2.png" alt="Grandview Logo" width="200">
+      </div>
+      <div>
+        <h1>Software Development: Site Content Assignment - Craig Shaffer and Madeline Edmonds<h1>
 
-  <h2>Date Submitted: 2021-09-10</h2>
-
-  <section>
+      <h2>Date Submitted: 2021-09-10</h2>
+      </div>
+  </header>
+	
+<div id="container">
+<section>
 
     <h4>Displaying Code Snippets: </h4>
 
@@ -115,25 +168,35 @@ border-radius: 4px;
 
   <section>
     <h4>Time Logs</h4>
-    <ul>
-      <p>  Craig Shaffer Log: </p>
-      <li>	2021-Sept-5: 4:00-5:30pm: Research formatting snippets</li>
-          <li>	2021-Sept-5: 6:00-7:37pm: Write essay for formatting snippets</li>
-      <li>	2021-Sept-7: 6:03-8:22pm: Syntax Highlighting research and revise essay</li>
-      <li>	2021-Sept-9: 5:30-8:10pm: Create HTML file and add in essay</li>
-          <li>	2021-Sept-9: 8:10-8:20pm: Create pull request</li>
-      
-    </ul> 
-    <ul>
-          <p>  Madeline Edmonds Log: </p>
-      <li>	2021-Sept-3: 8:00-9:00am: Assignment given</li>
-      <li>	2021-Sept-3: 3:00-4:00pm: Researched the &lt;code&gt; tag and it's functions. Found formatting was on one line so I found using the &lt;pre&gt; tags can keep the look and shape of the code snippets you've provided. Created HTML file and added it to GitHub </li>
-      <li>	2021-Sept-7: 9:00-10:00am: Updated HTML file with CSS styling. found how to change the whole code text a different color but not how to highlight specific text. </li>
-          <li>	2021-Sept-8: 8:00-8:30am: Attended class, computer had troubles</li>
-          <li>	2021-Sept-8: 10:00-10:50am: Found that using the &lt;div&gt; tags in the code tags and styling the &lt;div&gt; you can have specific words highlighted a separate color.</li>
-          <li>	2021-Sept-9: 1:00-2:30pm: Create essay HTML page for Pull Requests. Push all files to GitHub. Prepare Pull Requests</li>
-    </ul>
+    <details>
+      <summary>Craig Shaffer Log:</summary>
+      <ul>
+        <li>	2021-Sept-5: 4:00-5:30pm: Research formatting snippets</li>
+            <li>	2021-Sept-5: 6:00-7:37pm: Write essay for formatting snippets</li>
+        <li>	2021-Sept-7: 6:03-8:22pm: Syntax Highlighting research and revise essay</li>
+        <li>	2021-Sept-9: 5:30-8:10pm: Create HTML file and add in essay</li>
+            <li>	2021-Sept-9: 8:10-8:20pm: Create pull request</li>
+        
+      </ul> 
+    </details>
+    
+    <details>
+      <summary>Madeline Edmonds Log:</summary>
+      <ul>
+        <li>	2021-Sept-3: 8:00-9:00am: Assignment given</li>
+        <li>	2021-Sept-3: 3:00-4:00pm: Researched the &lt;code&gt; tag and it's functions. Found formatting was on one line so I found using the &lt;pre&gt; tags can keep the look and shape of the code snippets you've provided. Created HTML file and added it to GitHub </li>
+        <li>	2021-Sept-7: 9:00-10:00am: Updated HTML file with CSS styling. found how to change the whole code text a different color but not how to highlight specific text. </li>
+            <li>	2021-Sept-8: 8:00-8:30am: Attended class, computer had troubles</li>
+            <li>	2021-Sept-8: 10:00-10:50am: Found that using the &lt;div&gt; tags in the code tags and styling the &lt;div&gt; you can have specific words highlighted a separate color.</li>
+            <li>	2021-Sept-9: 1:00-2:30pm: Create essay HTML page for Pull Requests. Push all files to GitHub. Prepare Pull Requests</li>
+      </ul>
+    </details>
+    
   </section>
+</div>
   
+<footer>
+  <h2>Copyright &copy; 2021. All Rights Reserved</h2>
+</footer>
 
 </body>
