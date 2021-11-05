@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formatting</title>
+
+	<style>
+		body {
+		  background-color: #800000;
+		}   
+		header{
+		  background-color: #530909;
+		  padding: 25px;
+		  color: white;
+		  font-family: "Book Antiqua";
+		  display: flex;
+		}   
+		h1 {
+		  font-size: 55px;     
+		}
+		h2{
+		  font-size: 25px;
+		}   
+		footer{
+		  background-color: #530909;
+		  padding: 15px;
+		  color: white;
+		  font-family: "Book Antiqua";
+		  text-align: center;
+		}  
+		#container {
+		  width: 960px;
+		  margin: auto auto;
+		  background-color: white;
+		  padding: 25px;
+		  font-family: Arial, Helvetica, sans-serif;
+		} 
+		h4 {
+		  font-size: 20px;
+		} 
+		p, li {
+		  font-size: 17px;
+		}
+		.list1 {
+		  list-style-type: upper-roman;
+		}
+		
+		.list2 {
+		  list-style-type: lower-roman;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="alignsouth">
+			<img src="GV2.png" alt="Grandview Logo" width="200">
+		</div>
+		<div>
+			<h1>HTML Fomatting Documentation</h1>
+			<h2>Date Submitted: 2021-10-04</h2>
+		</div>
+	</header>
+
+	<div id="container">
+	<section>
+		<h1>There Should Be One H1 Tag in your assignment</h1>
+		<h2>SubHeadings can be the h2 & h3 tags</h2>
+	</section>
+    
+	<section>
+		<h4>Enclose a section between section tags</h4>
+	
+		<pre><code>
+	&lt;section&gt;
+		// section content goes here
+	&lt;/section&gt;
+		</code></pre>
+	</section>
+	
+	<section>
+		<h4>Enclose section titles with h4 tags</h4>
+	
+		<pre><code>
+	&lt;section&gt;
+		&lt;h4&gt;Section Title&lt;/h4&gt;
+
+		&lt;p&gt;Section text content.&lt;/p&gt;
+	&lt;/section&gt;
+		</code></pre>
+		
+		<p>Example:</p>
+		<pre><code>
+	&lt;section&gt;
+		&lt;h4&gt;This is section 1&lt;/h4&gt;
+
+		&lt;p&gt;Here is a a paragrah for section 1.&lt;/p&gt;
+	&lt;/section&gt;
+		</code></pre>
+
+		<p>--------- How it will look ---------</p>
+		
+		<h4>This is section 1</h4>
+		<p>Here is a a paragrah for section 1.</p>
+		<p>--------- How it will look ---------</p>
+		<br />
+	</section>
+	
+	<section>
+		<h4>Let's use only unorder lists </h4>
+	
+		<pre><code>
+	&lt;p&gt;List name&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;List item 1&lt;/li&gt;
+		&lt;li&gt;List item 2&lt;/li&gt;
+	&lt;/ul&gt;
+		</code></pre>
+
+		<p>--------- How it will look ---------</p>
+		<p>List name</p>
+		<ul>
+			<li>item 1 </li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+		<p>--------- How it will look ---------</p>
+		<br />
+	</section>
+	
+	<section>
+		<h4>If you need to show your code</h4>
+	
+		<p>Enclose your code in pre-format and code tags. Replace less than (&lt;) and greater than (&gt;) signs by <em>"&amp;lt;"</em> and <em>"&amp;gt;"</em></p>
+		<pre><code>
+	&lt;pre&gt;&lt;code&gt;
+		&amp;lt;h4&amp;gt;Example section title&amp;/lt;h4&amp;gt;
+	&lt;/pre&gt;&lt;/code&gt;
+		</code></pre>
+
+		<p>--------- How it will look ---------</p>
+		<pre><code>
+	&lt;h4&gt;Example section title&lt;/h4&gt;
+		</code></pre>
+		<p>--------- How it will look ---------</p>
+		<br />
+	</section>
+	
+	<section>
+		<h4>For your videos</h4>
+		<p>If you have a link to your video:</p>
+		<pre><code>
+	&lt;a href="https://youtu.be/nlUxnMP-SZE"&gt;Video Link: How the Code Works&lt;/a&gt;
+		</code></pre>
+
+		<p>--------- How it will look ---------</p>
+		<a href="https://youtu.be/nlUxnMP-SZE">Video Link: How the Code Works</a>
+		<p>--------- How it will look ---------</p>
+		<br />
+		
+		<p>If you need to include your video as the page itself: </p>
+
+		<pre><code>
+	&lt;video width="320" height="240" controls&gt;
+
+		&lt;source src="DefiningSuccessTutorial.mp4" type="video/mp4"&gt;
+		
+	&lt;/video&gt;
+		</code></pre>
+
+		<p>--------- How it will look ---------</p>
+		<video width="320" height="240" controls>
+
+		<source src="DefiningSuccessTutorial.mp4" type="video/mp4">
+		
+		</video>
+		<p>--------- How it will look ---------</p>
+		<br />
+	</section>
+	
+	<section>
+		<h4>If your media content needs to be downloaded, include download attribute to your anchor tag</h4>
+		<p></p>
+		<p><pre><code>
+	&lt;a href="confetti.jpg" download = "confetti"&gt;Download File&lt;/a&gt;
+		</code></pre></p>
+
+		<p>--------- How it will look ---------</p>
+		<a href="confetti.jpg" download="confetti">Download File</a>
+		<p>--------- How it will look ---------</p>
+		<br />
+	</section>
+    
+	<section>
+		<h4>HTML structure template</h4>
+		<pre><code>
+	&lt;html lang="en"&gt;
+		&lt;head&gt;
+			&lt;title&gt;Title of your webpage&lt;/title&gt;
+		&lt;/head&gt;
+		&lt;body&gt;
+			&lt;h1&gt;Heading&lt;/h1&gt;
+			&lt;h2&gt;Sub-heading&lt;/h2&gt;
+			&lt;h2&gt;Date Submitted: &lt;/h2&gt;
+			
+			&lt;section&gt;
+				&lt;h4&gt;Title of section 1&lt;/h4&gt;
+				
+				&lt;p&gt;Section 1 content, paragraph 1&lt;/p&gt;
+				&lt;p&gt;Section 1 content, paragraph 2&lt;/p&gt;
+				&lt;p&gt;Section 1 content, paragraph 3&lt;/p&gt;
+				&lt;br /&gt;
+			&lt;/section&gt;
+			
+			&lt;section&gt;
+				&lt;h4&gt;Title of section 2&lt;/h4&gt;
+
+				&lt;p&gt;Section 2 content, paragraph 1&lt;/p&gt;
+				&lt;p&gt;List name&lt;/p&gt;
+				&lt;ul&gt;
+					&lt;li&gt;item 1 &lt;/li&gt;
+					&lt;li&gt;item 2&lt;/li&gt;
+					&lt;li&gt;item 3&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;br /&gt;
+			&lt;/section&gt;
+			
+			&lt;section&gt;
+				&lt;h4&gt;Title of section 3&lt;/h4&gt;
+			
+				&lt;p&gt;Showing code example&lt;/p&gt;
+				&lt;pre&gt;&lt;code&gt;
+					&amp;lt;h4&amp;gt;Example section title&amp;/lt;h4&amp;gt;
+					&amp;lt;p&amp;gt;Example section content&amp;/lt;p&amp;gt;
+				&lt;/pre&gt;&lt;/code&gt;
+				&lt;br /&gt;
+			&lt;/section&gt;
+			
+			&lt;section&gt;
+				&lt;h4&gt;Title of section 4&lt;/h4&gt;
+				
+				&lt;p&gt;Video link example&lt;/p&gt;
+				
+				&lt;a href="https://youtu.be/nlUxnMP-SZE"&gt;Video Link: How the Code Works&lt;/a&gt;
+				
+				
+				&lt;p&gt;Embed video example&lt;/p&gt;
+
+				&lt;video width="320" height="240" controls&gt;
+					&lt;source src="DefiningSuccessTutorial.mp4" type="video/mp4"&gt;
+				&lt;/video&gt;
+				&lt;br /&gt;
+				&lt;/section&gt;
+			
+			&lt;section&gt;
+				&lt;h4&gt;Title of section 4&lt;/h4&gt;
+				&lt;p&gt;Media download with download attribute example&lt;/p&gt;
+				&lt;a href="confetti.jpg" download="confetti"&gt;Download File&lt;/a&gt;
+				&lt;br /&gt;
+			&lt;/section&gt;
+		
+			&lt;!-- The section time logs below is required --&gt;
+				&lt;section&gt;
+					&lt;h4&gt;Time logs&lt;/h4&gt;
+					
+					&lt;p&gt;Date time&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Log 1 &lt;/li&gt;
+						&lt;li&gt;Log 2&lt;/li&gt;
+						&lt;li&gt;Log 3&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+				&lt;/section&gt;
+			&lt;/body&gt;
+		&lt;/html&gt;
+		</code></pre>
+	</section>
+	</div>
+	
+    <footer>
+		<h2>Copyright &copy; 2021. All Rights Reserved</h2>
+	</footer>
+
+</body>
+</html>
