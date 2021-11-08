@@ -2,10 +2,65 @@
 <html lang=en>
 <head>
 <title>How to write a blog post in html</title>
+<style>
+    body {
+      background-color: #800000;
+    }   
+    header{
+      background-color: #530909;
+      padding: 25px;
+      color: white;
+      font-family: "Book Antiqua";
+      display: flex;
+    }   
+    h1 {
+      font-size: 55px;     
+    }
+    h2{
+      font-size: 25px;
+    }   
+    footer{
+      background-color: #530909;
+      padding: 15px;
+      color: white;
+      font-family: "Book Antiqua";
+      text-align: center;
+    }  
+    #container {
+      width: 960px;
+      margin: auto auto;
+      background-color: white;
+      padding: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    } 
+    h4 {
+      font-size: 20px;
+    } 
+    p, li {
+      font-size: 17px;
+    }
+    .list1 {
+      list-style-type: upper-roman;
+    }
+    
+    .list2 {
+      list-style-type: lower-roman;
+    }
+</style>
 </head>
+
 <body>
-<h1> How to write a blog post in html- Morgan Gant and David Beehler</h1>
-<h2>Blog html:</h2>
+<header>
+     <div class="alignsouth">
+        <img src="GV2.png" alt="Grandview Logo" width="200">
+    </div>
+    <div>
+        <h1>How To Blog Post- Morgan Gant and David Beehler</h1>
+        <h2> Date Submitted: 2021-09-10 </h2> 
+    </div>
+</header>    
+<div id="container">
+<h4> How to write a blog post in html</h4>
 <p>Creating a blog post in HTML only requires a few lines of HTML and since we want everyone’s blog post to look alike, it’s even easier. We would start this page of our website using establishing that we are going to use html by using the  <code><!DOCTYPE html></code> and <code><html lang=en></code>. <br> Then we want to bound a header to our data, within the header we give a title so that the program has a title for the data about to imputed. When the data is outputted, it will not show the title. We then close the head and open the body; this is where a headline statement and blog information will go. Headlines have sizes 1 through 6, 1 being the biggest and 6 being the smallest. An header statement, would be ideal to state what this page of our website entails. For an example, we set this up as if we are blogging our Goals for the semester. So, we named it Software development: Class goals. <br>Then, to separate each person’s goal statement, use another header statement, we could use anywhere between two and six. We suggest two because it’s smaller than the page headline but a little larger than the text so you can clearly see who’s post you’re reading. <br> Then for our main blog post, use a paragraph element, add in all the necessary information and end the statement. 
 Anytime we are ending a statement, we will use the original statement starter, ie.  <code><h></code> and add a backslash after the first arrowhead<code></h></code>.
 
@@ -34,9 +89,10 @@ After all the blogs are written in, we would close the body and html opening sta
 </pre>
 </p>
 
-<h1>Log</h1>
-    <h2>2021 Sept 3-10</h2>
-    <ol>
+<h4>Time Log</h4>
+<details>
+    <h3>2021 Sept 3-10</h3>
+    <ul>
     <li>2021-Sept-4: 2 hours: Researching how to Blog in html and different methods that coudl be implemented</li>
     <li>2021-Sept-4: 1.5 hours: Writing essay</li>
     <li>2021-Sept-5: 2 hours: Finding a site to check code, run it and revise</li>
@@ -46,8 +102,13 @@ After all the blogs are written in, we would close the body and html opening sta
     <li>2021-Sept-9: 30 minutes: Checking others code</li>
     <li>2021-Sept-10: 2 hours: Reading comments, accepting feedback and making revisions</li>
     <li>2021-Sept-3/12: 1 hour: Teamwork</li>
-    </ol>
+    </ul>
      <p> Total= About 16 hours </p>
+ </details>
+ </div>
+
+<footer>
+    <h2>Copyright &copy; 2021. All Rights Reserved</h2>
+</footer>
 </body>
 </html>
-
