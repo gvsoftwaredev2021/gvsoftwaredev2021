@@ -2,43 +2,67 @@
 <html lang="en">
 	<head>
 		<title>How to Make a Blog Post Pretty</title>
+
 		<style>
-			.heading1 {
-				font-size : 32px;
-				font-weight : bold;
-			}
-			.heading3 {
-				font-size : 19px;
-				font-weight : bold;
-			}
-			.bold-text {
-				font-weight : bold;
-			}
-			.italicized-text {
-				font-style : italic;
-			}
 			body {
-				background-color: khaki;
+			  background-color: #800000;
+			}   
+			header{
+			  background-color: #530909;
+			  padding: 25px;
+			  color: white;
+			  font-family: "Book Antiqua";
+			  display: flex;
+			}   
+			h1 {
+			  font-size: 55px;     
 			}
-			.center {
-				text-align: center;
+			h2{
+			  font-size: 25px;
+			}   
+			footer{
+			  background-color: #530909;
+			  padding: 15px;
+			  color: white;
+			  font-family: "Book Antiqua";
+			  text-align: center;
+			}  
+			#container {
+			  width: 960px;
+			  margin: auto auto;
+			  background-color: white;
+			  padding: 25px;
+			  font-family: Arial, Helvetica, sans-serif;
+			} 
+			h4 {
+			  font-size: 20px;
+			} 
+			p, li {
+			  font-size: 17px;
 			}
-			.right {
-				text-align: right;
+			.list1 {
+			  list-style-type: upper-roman;
 			}
-			.image {
-				width : 200px;
-				height: 200px;
-				float: right;
-				border-radius: 15px;
-				border: solid 5px blue;
+
+			.list2 {
+			  list-style-type: lower-roman;
 			}
 		</style>
 	</head>
 
 	<body>
-		<h1>Making Blogspot Pretty - Gideon & Danh</h1>
-		<h2>Date Submitted: 09/10/2021</h2>
+
+	<header>
+		<div class="alignsouth">
+			<img src="GV2.png" alt="Grandview Logo" width="200">
+		</div>
+		<div>
+			<h1>Making Blogspot Pretty - Gideon & Danh</h1>
+			<h2>Date Submitted: 09/10/2021</h2>
+		</div>
+	</header>
+	
+	<div id="container">
 
 		<section>
 			<h4>Change your font to a deliberate typographical style</h4>
@@ -204,5 +228,10 @@
 		Change document to HTML and format			1 hour
 			</pre>
 		</section>
+	</div>
+	
+	<footer>
+		<h2>Copyright &copy; 2021. All Rights Reserved</h2>
+	</footer>
 	</body>
 </html>
