@@ -40,3 +40,49 @@ footer{
   .list2 {
     list-style-type: lower-roman;
 }
+	
+/* Navigation styles */
+nav {
+	display: block;
+	text-align: center;
+	background-color: #530909;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 960px;
+	margin: 15px auto;
+	padding: 2px 25px;
+	border-radius: 20px;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	font-size: 1.5em;
+	margin: auto 10px;
+}
+
+nav a {
+	background-color: #800000;
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+nav a:visited {
+}
+
+nav a:hover {
+	background-color: #d01b35;
+	color: white;
+}
+
+nav a:active {
+	color: white;
+	text-decoration: underline;
+}
+
+.current-page {
+	color: black;
+	background-color: white;
+}
