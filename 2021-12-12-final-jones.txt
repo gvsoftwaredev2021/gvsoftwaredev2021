@@ -1,0 +1,44 @@
+1. Software developement is the lifecylce of creating and designing, programming, documenting and testing, for software. 
+Software is a broad term that can mean anything from a text editor to a program used for heart monitors, similarly in 
+software development the process can and does change dramatically from type of software to type of software. 
+
+2. Honestly the top lesson I learned from this course wasn't really a single lesson but rather a culmination of pretty
+much everything we've done in this class. What I mean by that is writing HTML and practicing it is the top lesson I learned.
+I was familiar with HTML prior to this class but have not practiced it as much as I did with this class. I can say that I am
+much more confident with writing HTML after taking this class. 
+
+3. The goals that were listed were: 
+	- Learn the full software development lifecycle, and how to use UML and coding practices to help move an idea from the software
+	  designer to the end-user
+	- Learn old and new models of software development
+	- Learn automated and manual testing that 1) software works as intended, and 2) the software’s features do not regress over time
+	- Working as a team, and presenting the results of that work
+
+4. Software developement as a group is a bad idea when the project is really small. If a project is really small and you are trying
+to work within a group setting it can end up in a situation where everyone is kind of just stepping over eachother trying to work on the 
+same part of the project. 
+
+5. The process used for the class site is: design (conceptual) > program > implememnt > peer-reviewed > implimented often in a group setting for 
+bigger projects and individual settings for smaller projects.
+
+6. The process that resembelled our class the most waas wiether Scrum or Waterfall as both work in groups that go through phases that gather feedback
+and fix based on the feedback, kind of like how we would meet at the start of every class and talk about what needs to be fixed based on what was turned in
+so far. The process that resembled our class the least is probably Kanban because Kanban focuses primarily on efficiency while we focused more on quality. 
+
+7. The goals of the developement process we used was to create a manageable workflow that optimized efficiency but more importantly, quality of the product
+to get exactly what we wanted in the end product. This was specifically apparent near the last couple of weeks when we messed with CSS styling. 
+
+8. I think I enjoyed the class overall and learned a lot. The one thing I would change is try and implement the course work-flow or schedule into blackboard.
+The reason I say use blackboard over something like email is that each student recieves many emails everyday and our class emails can get lost in the flow of 
+emails being sent to us everyday. With blackboard we can reference our class objectives without having to sift through emails.
+
+
+		<section>
+		<h4>Instructor Notes</h4>
+			<ol>
+				<li>Coach in league of legends (which Nick plays) does strategy and mediating conflicts. Treat coach as another player rather than as a boss.
+				<li>Best team experience in class: fast responses.
+				<li>Liked having choice of tasks for leading the class in				<li>How to deal with crappy teammate e.g. in League of Legends? If the project is short, just deal with it. If the project is long, bring it up in the group with the coach present.
+				<li>Something about teamwork that people know but don't act on: "Don't be scared of bringing up problems. If you don't, they'll just be there. Bringing it up saves time and stress" --Oge.
+			</ol>
+		</section>
